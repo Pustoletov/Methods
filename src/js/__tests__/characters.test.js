@@ -12,7 +12,7 @@ test('Заданный персонаж не существует', () => {
     return result;
   }).toThrow();
 });
-test('creation Bowman', () => {
+test('Создаём лучника', () => {
   const recieved = new Bowman('Lusie', 'Bowman');
   expect(recieved).toEqual({
     name: 'Lusie',
@@ -23,7 +23,7 @@ test('creation Bowman', () => {
     deffence: 10,
   });
 });
-test('creation Daemon', () => {
+test('Создаём демона', () => {
   const recieved = new Daemon('Lusie', 'Daemon');
   expect(recieved).toEqual({
     name: 'Lusie',
@@ -34,7 +34,7 @@ test('creation Daemon', () => {
     deffence: 40,
   });
 });
-test('creation Magician', () => {
+test('Создаём волшебника', () => {
   const recieved = new Magician('Lusie', 'Magician');
   expect(recieved).toEqual({
     name: 'Lusie',
@@ -45,7 +45,7 @@ test('creation Magician', () => {
     deffence: 40,
   });
 });
-test('creation Swordsman', () => {
+test('Создаём мечника', () => {
   const recieved = new Swordsman('Lusie', 'Swordsman');
   expect(recieved).toEqual({
     name: 'Lusie',
@@ -56,7 +56,7 @@ test('creation Swordsman', () => {
     deffence: 10,
   });
 });
-test('creation Undead', () => {
+test('Создаём мертвеца', () => {
   const recieved = new Undead('Lusie', 'Undead');
   expect(recieved).toEqual({
     name: 'Lusie',
@@ -67,7 +67,7 @@ test('creation Undead', () => {
     deffence: 25,
   });
 });
-test('creation Zombie', () => {
+test('Создаём зомби', () => {
   const recieved = new Zombie('Lusie', 'Zombie');
   expect(recieved).toEqual({
     name: 'Lusie',
